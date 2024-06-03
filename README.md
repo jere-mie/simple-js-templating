@@ -16,16 +16,16 @@ Simply download and include the [JS file](https://jere-mie.github.io/simple-js-t
 
 ### CDN
 
-You can also include the JS file via CDN, like so:
+You can also import from the JS file via the CDN like so:
 
-```html
-<script type="module" src="https://jere-mie.github.io/simple-js-templating/templating.js"></script>
+```js
+import { findTemplate, findContainer, instantiateTemplate } from 'https://jere-mie.github.io/simple-js-templating/templating.js';
 ```
 
 Or for the minified version (no docs but smaller file size):
 
-```html
-<script type="module" src="https://jere-mie.github.io/simple-js-templating/templating.min.js"></script>
+```js
+import { findTemplate, findContainer, instantiateTemplate } from 'https://jere-mie.github.io/simple-js-templating/templating.min.js';
 ```
 
 It's recommended to download and install the file locally rather than use the CDN, as it's more stable to serve the content yourself.
