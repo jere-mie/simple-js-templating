@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Templating Example</title>
+</head>
+
+<body>
+    <template data-templateName="exampleTemplate">
+        <div>
+            <h1 data-fieldName="title"></h1>
+            <p data-fieldName="content"></p>
+        </div>
+    </template>
+
+    <div data-containerName="exampleContainer"></div>
+
+    <script type="module">
+        import { findTemplate, findContainer, instantiateTemplate } from './templating.js';
+
+        const template = findTemplate('exampleTemplate');
+        const container = findContainer('exampleContainer');
+        const fillParams = {
+            title: [['innerHTML', 'Hello, World!']],
+            content: [['innerHTML', 'This is an example content.']]
+        };
+
+        if (template && container) {
+            const instance = instantiateTemplate(template, fillParams);
+            container.appendChild(instance);
+        }
+    </script>
+</body>
+
+</html>
