@@ -2,7 +2,7 @@
 
 A relatively small and simple templating system for small websites that want templating capabilities without setting up a build system or JavaScript framework like Svelte or React.
 
-Created by Isaac Kilbourne ([@kilbouri](https://github.com/kilbouri)). Hosted on GitHub by Jeremie Bornais, because Isaac didn't want to create a separate repository for it. You can find Isaac's original GitHub Gist for it [here](https://gist.github.com/kilbouri/c76df10a416ee8a7e0462da69f7a27fc).
+Originally created by Isaac Kilbourne ([@kilbouri](https://github.com/kilbouri)) under the [0BSD license](https://opensource.org/license/0bsd). You can find Isaac's original GitHub Gist for it [here](https://gist.github.com/kilbouri/c76df10a416ee8a7e0462da69f7a27fc).
 
 ## Features
 
@@ -12,7 +12,7 @@ Created by Isaac Kilbourne ([@kilbouri](https://github.com/kilbouri)). Hosted on
 
 ## Installation
 
-Simply download include the JS file in your project. By default, this file is a JS module. To use it as a regular JS script, remove the export line near the beginning of the file.
+Simply download and include the [JS file](https://jere-mie.github.io/simple-js-templating/templating.js) (or [minified JS file](https://jere-mie.github.io/simple-js-templating/templating.js)) in your project. By default, this file is a JS module. To use it as a regular JS script, remove the export line near the beginning of the file.
 
 ### CDN
 
@@ -28,7 +28,7 @@ Or for the minified version (no docs but smaller file size):
 <script type="module" src="https://jere-mie.github.io/simple-js-templating/templating.min.js"></script>
 ```
 
-It's recommended to download and install the file locally, however, as it's more stable and gives you ownership of your code.
+It's recommended to download and install the file locally rather than use the CDN, as it's more stable to serve the content yourself.
 
 ## Usage
 

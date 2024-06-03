@@ -6,7 +6,10 @@
  * This is a stand-alone source file with no dependencies. By default, this file is a JS module. Just a few lines
  * below this blurb is the export list. Simply remove it if you wish to use this file as a regular old JS script
  * (not recommended, but you do you).
+ *
  * @author Isaac Kilbourne
+ * @license 0BSD
+ * https://opensource.org/license/0bsd
  */
 
 // If you do not want this to be a module, just remove this line and use the script as normal.
