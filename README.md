@@ -12,7 +12,7 @@ Originally created by Isaac Kilbourne ([@kilbouri](https://github.com/kilbouri))
 
 ## Installation
 
-Simply download and include the [JS file](https://jere-mie.github.io/simple-js-templating/templating.js) (or [minified JS file](https://jere-mie.github.io/simple-js-templating/templating.js)) in your project. By default, this file is a JS module. To use it as a regular JS script, remove the export line near the beginning of the file.
+Simply download and include the [JS file](https://jere-mie.github.io/simple-js-templating/templating.js) (or [minified JS file](https://jere-mie.github.io/simple-js-templating/templating.min.js)) in your project. By default, this file is a JS module. To use it as a regular JS script, remove the export line near the beginning of the file.
 
 ### CDN
 
